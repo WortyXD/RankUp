@@ -1,0 +1,53 @@
+prefix: "&8[&2RankUp&8] &r"
+
+settings:
+  default-rank: "default"
+  confirm-time: 60
+
+messages:
+  only-player: "&cBu Komut Sadece Oyuncular İçindir."
+  rank-not-found: "&cRütben Tanınmıyor!"
+  max-rank: "&fZaten En Yüksek Rütbedesin!"
+  not-enough-money: "&cYeterli Paran Yok!"
+  info-title: "&b--- Rütbe Atlama ---"
+  next-rank: "&fSonraki rütbe: &b%rank%"
+  price: "%emoji% &fÜcret: &b%price%"
+  balance: "&fBakiyen: &b%balance%"
+  confirm: "&fOnaylamak İçin Tekrar &b/rankup &fYaz (%time% Sn)"
+  broadcast: "&b%player% &fAdlı Oyuncu Rütbe Atlayarak &b%rank% &fRütbesine Ulaştı!"
+
+ranks:
+  default:
+    display: "Halk"
+    next: "savasci"
+    price: 2500
+
+  savasci:
+    display: "Savaşçı"
+    next: "sovalye"
+    price: 5000
+
+  sovalye:
+    display: "Şövalye"
+    next: "baron"
+    price: 10000
+
+  baron:
+    display: "Baron"
+    next: "lord"
+    price: 15000
+
+  lord:
+    display: "Lord"
+    next: "efsane"
+    price: 25000
+
+  efsane:
+    display: "Efsane"
+    next: "hukumdar"
+    price: 35000
+
+  hukumdar:
+    display: "Hükümdar"
+    last: true
+    price: 50000

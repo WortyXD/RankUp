@@ -1,0 +1,11 @@
+name: Rankup
+version: 1.0
+main: MadeByWorty1.rankup.Rankup
+api-version: 1.21
+depend: [Vault, LuckPerms]
+author: Worty1
+website: https://github.com/WortyXD
+
+commands:
+  rankup:
+    description: Rütbe Atlama Sistemi
